@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="javascript/all.min.js">
+    <link rel="stylesheet" href="javascript/contact.js">
+</head>
+<body class="body">
+    <!-- start navbar -->
+    <div class="page">
+        <nav class="navbar">
+            <div class="container">
+
+                <input id="menu-btn" type="checkbox" />
+                <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand"><img src="images/logo.png" alt="TRAVILIA" class="logo"></a>
+                </div>
+                <div class="navbar-contact">
+                    <a href=""> <i class="fas fa-phone-alt"></i> +1 800 123 1234</a>
+                    <a class="mail" href=""> <i class="fas fa-envelope"></i> email@website.com</a>
+                </div>
+                <div class="navbar-menu">
+                    <ul class="menu">
+                        <li class="active"><a href="home.html">home</a></li>
+                        <li class="active"><a href="about.html">about us</a></li>
+                        <li class="active"><a href="services.html">services</a></li>
+                        <li class="active"><a href="promo.html">promo</a></li>
+                        <li class="active"><a href="Gallery.html">galerie</a></li>
+                        <li class="active"><a href="contact us.html">contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- fin navbar -->
+
+        <!-- start background img contact us -->
+        <div class="img">
+            <div class="pad_texte2"> 
+                <h1>Contact Us</h1>
+                <p class="texte2">
+                    When you needed
+                </p>
+            </div>
+        </div>
+
+        <!-- fin background img contact us -->
+
+        <!-- start contact us -->
+        
+        <div class="blanc">
+            <div class="wrapper">
+                <div id="error_message"></div>
+                    <form id="contact" onsubmit = "return validate();">
+                        <input type="text" placeholder="Your Name" class="input_field" id="name"> <br>
+                        <input type="text" placeholder="Email" class="input_field" id="email"> <br>
+                        <input type="text" placeholder="Subject" class="input_field" id="subject"> <br>
+                        <textarea type="text" placeholder="tellus mauris" class="input_field" id="message"></textarea><br>
+                        <input type="submit" value="Send" class="btn">
+                        <div id="vide"></div>
+                    </form>
+            </div>
+
+            <div class="info">
+                <h1 class="titre">OUR OFFICE</h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque <br>
+                tempus ac eget diam et laoreet phasellus.
+                </p>
+                <h2 class="titre" id="titre">Travilia</h2>
+                <div class="phone">
+                    <a href=""> <i class="fas fa-phone-alt"></i> +1 800 123 1234</a><br>
+                    <a class="mail" href=""> <i class="fas fa-envelope"></i> email@website.com</a>
+                </div>    
+                <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515343.0740989433!2d-119.38295316286117!3d36.47965144112536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80be2d9c13f20653%3A0x4f8616360028f78!2sLone%20Pine%2C%20Californie%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2sma!4v1579509524478!5m2!1sfr!2sma" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+                </iframe>
+                <div class="vide"> </div>
+            </div>
+        
+        </div>
+        <img src="../code/images/logo.png" class="logo_d">
+        <!-- fin contact us -->
+
+        <!-- start footer -->
+        <footer class="footer_con">
+            <div class="copyright">
+                <div class="left">
+                    <p>&copy; Copyright 2019. All Right Reserved</p>
+                </div>
+                <div class="right">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="javascript/all.min.js"></script>
+    <script src="javascript/contact.js"></script>
+</body>
+</html>
